@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
-    <Resource name="jdbc/crm"
+    <Resource name="jdbc/crm_carworkshop"
               auth="Container"
               type="javax.sql.DataSource"
               username="root"
-              password="root"
+              password="coderslab"
               driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/crm"
               connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+              url="jdbc:mysql://localhost:3306/crm_carworkshop"
               maxTotal="100"
               maxIdle="30"
               maxWaitMillis="10000" />

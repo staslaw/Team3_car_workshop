@@ -22,7 +22,7 @@ public class DbService {
         if(ds == null) {
             try {
                 Context ctx = new InitialContext();
-                ds = (DataSource)ctx.lookup("java:comp/env/jdbc/school");
+                ds = (DataSource)ctx.lookup("java:comp/env/jdbc/crm_carworkshop");
             } catch (NamingException e) {
                 e.printStackTrace();}
         }
